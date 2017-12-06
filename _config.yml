@@ -1,6 +1,6 @@
 theme: jekyll-theme-primer
-title: Report: Predicting Murders in US Metropolitans 
-description: Keeping Italian Olives Pure!
+title: Report: Predicting Murders in US Metropolitans
+description: CS109a Final Project Report on Predicting Murders in US Metropolitans
 baseurl:
 markdown: kramdown
 kramdown:
