@@ -1,5 +1,5 @@
 ---
-title: Models
+title: Murder Prediction Models
 notebook: Models.ipynb
 nav_include: 1
 ---
