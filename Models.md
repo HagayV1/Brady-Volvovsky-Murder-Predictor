@@ -1,5 +1,5 @@
 ---
-title: Murder Prediction Models
+title: Models
 notebook: Models.ipynb
 nav_include: 1
 ---
@@ -65,6 +65,7 @@ xtrain, xtest, ytrain, ytest = train_test_split(X, Y, test_size = 0.3)
 ```
 
 
+## Baseline Model: Linear Regression
 
 
 
@@ -85,8 +86,9 @@ print('Linear Regression estimator\'s score on the test set is:',
 
 It appears that the Linear Regression does a decent job on both the training and test set
 
+## Alternative Regression Approaches
 
-## Lasso Regression
+### Lasso Regression
 
 
 
@@ -107,7 +109,7 @@ print('Lasso Regression estimator\'s score on the test set is:',
 
 Lasso regression performs really poorly on both test and training data and clearly underperforms Linear Regression
 
-## Ridge Regression
+### Ridge Regression
 
 
 
@@ -128,8 +130,9 @@ print('Ridge Regression estimator\'s score on the test set is:',
 
 It appears that Ridge regression significantly performs about as well as the Linear Regression
 
+## Trees and Gradient Boosting
 
-## Decision Tree Regressor
+### Decision Tree Regressor
 
 
 
@@ -158,7 +161,7 @@ print('Decision Tree Regressor\'s score on the test set:',
 
 It appears that the simple Decision Tree estimator performs worse than the Ridge and Linear Regressions
 
-## Random Forest
+### Random Forest
 
 
 
@@ -199,7 +202,7 @@ print('RF score on the test set is:',
 
 The Random Forest estimator clearly outperforms a single Decision Tree on both the test and training set, and does slightly better than the Linear and Ridge regressions
 
-## Boosting
+### Boosting
 
 
 
@@ -255,6 +258,7 @@ print('Gradient Boosting estimator\'s score on the test set is:',
 
 It appears that the Gradient Boosting estimators slightly outperforms the Random Forest estimator on the training and test set
 
+## Stacking
 
 
 
