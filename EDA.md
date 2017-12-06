@@ -1,7 +1,7 @@
 ---
 title: EDA
 notebook: EDA.ipynb
-nav_include: 2
+nav_include: 1
 ---
 
 ## Contents
@@ -11,32 +11,6 @@ nav_include: 2
 
 
 
-```python
-import numpy as np
-import pandas as pd
-import matplotlib
-import matplotlib.pyplot as plt
-import sklearn.metrics as metrics
-import math
-from sklearn.model_selection import cross_val_score
-from sklearn import tree
-from sklearn.metrics import accuracy_score
-from sklearn.tree import DecisionTreeClassifier
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.ensemble import AdaBoostClassifier
-from sklearn.ensemble import VotingClassifier
-from sklearn.linear_model import LogisticRegressionCV
-from sklearn.model_selection import cross_val_score
-from sklearn.model_selection import KFold
-from sklearn.model_selection import GridSearchCV
-from itertools import product
-from collections import OrderedDict
-from scipy.stats import norm
-import seaborn as sns
-
-
-%matplotlib inline
-```
 
 
 

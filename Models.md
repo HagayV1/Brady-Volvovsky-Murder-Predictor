@@ -1,5 +1,5 @@
 ---
-title: Models
+title: Murder Prediction Models
 notebook: Models.ipynb
 nav_include: 1
 ---
@@ -12,32 +12,6 @@ nav_include: 1
 
 
 
-```python
-import numpy as np
-import pandas as pd
-import matplotlib
-import matplotlib.pyplot as plt
-import sklearn.metrics as metrics
-import math
-from sklearn.linear_model import LinearRegression
-from sklearn.linear_model import RidgeCV
-from sklearn.linear_model import LassoCV
-from sklearn.model_selection import cross_val_score
-from sklearn import tree
-from sklearn.tree import DecisionTreeRegressor
-from sklearn.ensemble import RandomForestRegressor
-from sklearn.ensemble import GradientBoostingRegressor
-from sklearn.linear_model import LogisticRegressionCV
-from sklearn.model_selection import cross_val_score
-from sklearn.model_selection import KFold
-from sklearn.model_selection import GridSearchCV
-from sklearn.model_selection import train_test_split
-from sklearn.metrics import mean_squared_error
-from itertools import product
-from collections import OrderedDict
-from scipy.stats import norm
-import seaborn as sns
-```
 
 
 
