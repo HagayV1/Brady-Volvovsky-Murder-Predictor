@@ -317,7 +317,7 @@ plt.show()
 ![png](EDA_files/EDA_27_0.png)
 
 
-## ## There Seems to be Variation Between Cities in Murder Rates
+## There Seems to be Variation Between Cities in Murder Rates
 
 
 
